@@ -5,6 +5,9 @@ PHP error out redirection across pages
 `$escaper = new Escaper();`
 
 #### In a script where an error may occur, set the escape route:
+/**
+ *  @var Escaper $escaper 
+ */
 `$escaper->route = '../login.php';`
 
 #### When an error occurs, set the error message and redirect away:
